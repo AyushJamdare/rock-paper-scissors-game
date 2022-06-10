@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     display: flex;
+     font-family: sans-serif;
+     position: absolute;
+     left: 50%;
+      top: 50%;
+     transform: translate(-50%, -50%);
+     flex-direction: row-reverse;
+     gap: 4rem;
+     align-items: center;
+ }
+ button{
+     border: none;
+     border: 2px solid rgb(255, 255, 255);
+     border-radius: 4px;
+     padding: 0.5em 1em;
+     margin: 0.5em;
+     background-color: #ffebcd;
+     cursor: pointer;
+     color: #2F4858;
+     font-weight: 900;
+ }
+ .choice-btn{
+     display: flex;
+     flex-direction: column;
+ }
+ .data{
+     margin: 0.5em;
+ }
